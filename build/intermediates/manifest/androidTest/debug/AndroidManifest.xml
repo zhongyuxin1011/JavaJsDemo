@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zyx1011.javajsdemo.test">
+
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="22" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="com.zyx1011.javajsdemo"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for com.zyx1011.javajsdemo"/>
+</manifest>

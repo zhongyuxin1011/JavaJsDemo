@@ -1,0 +1,31 @@
+javascript:(
+    function () {
+
+        var imgs = document.getElementsByTagName("img");
+        var count = imgs.length;
+        var allUrls = "";
+        
+        for (var i = 0; i < count; i++) {
+            if (i == 0) {
+                allUrls = imgs[i].src;
+            } else {
+                allUrls += ";" + imgs[i].src;
+            }
+        }
+        
+        for (var i = 0; i < count; i++) {
+        	imgs[i].id = i; 
+        	
+            imgs[i].onclick = function() { 
+            
+           	 	var imgPosition = this.id;
+
+           		window.location.href="http://jscalljava?imgPosition=" + imgPosition + "&allUrls=" + allUrls;
+     
+           		return;
+            }
+        }
+  }()
+);
+
+

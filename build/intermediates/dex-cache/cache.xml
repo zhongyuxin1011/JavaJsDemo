@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\zhongyuxin\Desktop\JavaJsDemo\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09f3bf0a10018645f505a1620432268265682de0">
+        <dex dex="C:\Users\zhongyuxin\Desktop\JavaJsDemo\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_bf82bb74278ebbd75779bf3dc1131c8bc7905306\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zhongyuxin\Desktop\JavaJsDemo\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b35e5e3c2b1f99323def87d157836cdf30070a5b">
+        <dex dex="C:\Users\zhongyuxin\Desktop\JavaJsDemo\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b64cd4fb81b53c63755c6b949df9702f64ff097d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zhongyuxin\Desktop\JavaJsDemo\libs\android-support-v4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1dc1f63cee098b27db60b9a2833fd7ca58f89636">
+        <dex dex="C:\Users\zhongyuxin\Desktop\JavaJsDemo\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v4_859b0ba4a56b75e99b04fcce8a1a37d628168382\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\zhongyuxin\Desktop\JavaJsDemo\libs\universal-image-loader-1.9.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="C:\Users\zhongyuxin\Desktop\JavaJsDemo\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.3_5c233b8c7175669eff0d8876c1a237372fbfd456\classes.dex" />
+    </item>
+
+</items>
